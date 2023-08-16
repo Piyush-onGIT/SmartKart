@@ -31,7 +31,7 @@ const Footer = () => {
     <div className="w-full bg-[#F5F5F3] py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
         <div className="col-span-2">
-          <FooterListTitle title=" More about SmartKart" />
+          <FooterListTitle title=" More about orebiKart" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
             Discover a world of shopping at your fingertips. Explore endless options, from electronics to fashion, and experience the convenience of online commerce.
@@ -84,7 +84,7 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-            Join us today and start shopping smarter!
+            Join us today and start shopping orebier!
             </p>
             {subscription ? (
               <motion.p

@@ -18,7 +18,7 @@ CORS(app, resources={r"/*": {"origins": allowed_origins}})
 try:
     client = MongoClient('mongodb+srv://cluster0_admin:cluster0123@cluster0.m7twqzk.mongodb.net/?retryWrites=true&w=majority')
     print("Connected to MongoDB")
-    db = client['SmartDB']
+    db = client['orebiDB']
 except:
     print("Can't connect to MongoDB")
 

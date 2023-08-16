@@ -11,7 +11,7 @@ async function connectToDatabase() {
     try {
       await client.connect();
       console.log("Connected to MongoDB Atlas");
-      dbInstance = client.db("SmartDB");
+      dbInstance = client.db("orebiDB");
     } catch (e) {
       console.error("Error connecting to MongoDB Atlas:", e);
     }

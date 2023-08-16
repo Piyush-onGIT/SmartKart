@@ -65,7 +65,7 @@ const NewArrivals = () => {
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
+            productName="orebi Watch"
             price="250.00"
             color="Black"
             badge={true}

@@ -166,7 +166,7 @@ export const paginationItems = [
   {
     _id: 1010,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -203,7 +203,7 @@ export const paginationItems = [
   {
     _id: 1014,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -221,7 +221,7 @@ export const paginationItems = [
   {
     _id: 1016,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -248,7 +248,7 @@ export const paginationItems = [
   {
     _id: 1019,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -374,7 +374,7 @@ export const paginationItems = [
   {
     _id: 1033,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -419,7 +419,7 @@ export const paginationItems = [
   {
     _id: 1038,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -446,7 +446,7 @@ export const paginationItems = [
   {
     _id: 1041,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "orebi Watch",
     price: "250.00",
     color: "Black",
     badge: true,

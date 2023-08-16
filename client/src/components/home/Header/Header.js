@@ -73,7 +73,7 @@ const Header = () => {
                 >
                   <div className="w-full h-full bg-primeColor p-6">
                     <img
-                      className="w-30 mb-6"
+                      className="w-20 mb-6"
                       src={logoLight}
                       alt="logoLight"
                     />

@@ -1,4 +1,3 @@
-import logo from "./orebiLogo.png";
 import sk from "./sk.png";
 import logoLight from "./logoLight.png";
 import bannerImgOne from "./banner/poster1.jpg";
@@ -34,7 +33,6 @@ import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
 export {
-  logo,
   sk,
   logoLight,
   bannerImgOne,

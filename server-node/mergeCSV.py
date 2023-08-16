@@ -26,7 +26,7 @@ for idx, file_name in enumerate(csv_files):
         combined_data = pd.concat([combined_data, data], ignore_index=True)
 
 # Write the combined data to a new CSV file
-output_file_path = 'C:\\Users\\piyus\\OneDrive\\Desktop\\Codelab\\Dev\\smartkart\\server-node\products_70.csv'
+output_file_path = 'C:\\Users\\piyus\\OneDrive\\Desktop\\Codelab\\Dev\\orebikart\\server-node\products_70.csv'
 combined_data.to_csv(output_file_path, index=False)
 
 print("Combined data has been written to", output_file_path)
