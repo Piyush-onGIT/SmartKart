@@ -3,7 +3,8 @@ require('dotenv').config();
 
 // check current user
 const checkUser = (req, res, next) => {
-	const token = req.cookies.login;
+	const token = req.query.login;
+	next();
 	if (token) {
 		jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decodedToken) => {
 			if (err) {

@@ -54,7 +54,7 @@ const SignIn = () => {
       if (response.ok) {
         localStorage.setItem('token', response.body)
         console.log(response);
-        // window.location.href = '/'
+        window.location.href = '/'
       }
       else {
         alert(response.message)
