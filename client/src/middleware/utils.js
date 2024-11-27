@@ -4,7 +4,8 @@ import url from '../urls.json';
 const server = url.node_server
 
 export async function checkLogin() {
-  const response = await fetch(`${server}/checkLogin`, {
+  const token = localStorage.getItem('token')
+  const response = await fetch(`${server}/checkLogin?token=${token}`, {
     method: "GET",
     credentials: "include"
   })

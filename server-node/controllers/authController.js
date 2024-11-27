@@ -38,7 +38,7 @@ const login = async (req, res) => {
           maxAge: age * 1000,
           domain: '.vercel.app',
         });
-        res.status(200).json({ ok: true, message: "Account created and logged in." })
+        res.status(200).json({ ok: true, message: "Account created and logged in.", token: token })
       }
       catch (err) {
         console.log(err)
@@ -73,7 +73,7 @@ const login = async (req, res) => {
 }
 
 const checkLogin = (req, res) => {
-  const token = req.cookies.login;
+  const token = req.query.token;
   // check if token exists
   if (token) {
     jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, decodedToken) => {
