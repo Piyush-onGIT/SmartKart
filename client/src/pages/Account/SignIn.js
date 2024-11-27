@@ -52,8 +52,9 @@ const SignIn = () => {
       })
       response = await response.json()
       if (response.ok) {
-        localStorage.setItem('token', response.token)
-        window.location.href = '/'
+        localStorage.setItem('token', response.body)
+        console.log(response);
+        // window.location.href = '/'
       }
       else {
         alert(response.message)

@@ -64,7 +64,7 @@ const login = async (req, res) => {
         maxAge: age * 1000,
         domain: '.vercel.app',
       });
-      res.status(200).json({ ok: true, message: "Logged In" })
+      res.status(200).json({ ok: true, message: "Logged In", token: token })
     }
     else {
       res.status(200).json({ ok: false, message: "Wrong password" })
