@@ -97,7 +97,7 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full pb-16">
-      {user && products.length > 0 ?
+      {user && products && products.length > 0 ?
         <>
           <Heading heading="You may like" />
           <Slider {...settings}>
