@@ -4,11 +4,11 @@ const { checkUser } = require('../middleware/checkUser');
 
 const router = Router();
 
-router.post('/like', checkUser, like)
-router.post('/liked', checkUser, liked)
-router.post('/productClicked', checkUser, productClicked)
-router.post('/rate', checkUser, rate)
-router.post('/order', checkUser, order)
+router.post('/like', like)
+router.post('/liked', liked)
+router.post('/productClicked', productClicked)
+router.post('/rate', rate)
+router.post('/order', order)
 router.get('/search', search)
 
 module.exports = router;
